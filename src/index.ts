@@ -1,11 +1,13 @@
-// const greeting:string = 'Hello from typescript';
-// console.log(greeting);
+// test
+const greeting:string = 'Hello from typescript';
+console.log(greeting);
 
-// const asd = (names:number[], ddd:number, hhh:boolean):number => {
-// 	console.log(names, ddd, hhh);
-// 	return;
-// }
-// asd(['Masha', 'Dasha', 'Karina'], 2, true);
+const asd = (names:string[], ddd:number, hhh:boolean):number => {
+	console.log(names, ddd, hhh);
+	return;
+}
+
+asd(['Ihor', 'Alina'], 3.3, true)
 
 // interface IUser<T> {
 // 	name:string,

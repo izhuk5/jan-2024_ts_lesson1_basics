@@ -8,8 +8,13 @@ npm init
 }
 npm i
 
+tsc -init — створити tsconfig.json
+tsc --project tsconfig.json --watch
+
 tsc
 tsc src/index.ts
 node src/index.js
+
+_userKey — так позначаємо приватні змінні
 
 Стрілочками вниз/верх можна в терміналі заюзати попередні запити
